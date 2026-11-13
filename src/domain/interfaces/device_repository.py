@@ -3,6 +3,7 @@ from typing import List, Optional
 
 from src.domain.entities.device import Device
 
+
 class IDeviceRepository(ABC):
     """Контракт сховища пристроїв. Реалізації живуть в Infrastructure."""
 

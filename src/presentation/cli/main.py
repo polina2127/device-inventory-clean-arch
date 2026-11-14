@@ -92,8 +92,9 @@ def main() -> None:
             elif choice == "0":
                 print("До побачення!")
                 break
+            else:                                                       
+                print("Невідомий пункт меню. Введіть число від 0 до 5.") 
         except (DomainError, ValueError) as error:
-            print(f"Помилка: {error}")
 
 
 if __name__ == "__main__":

@@ -61,5 +61,6 @@ class JsonDeviceRepository(IDeviceRepository):
             }
             for d in devices
         ]
+        self._file_path.parent.mkdir(parents=True, exist_ok=True)
         with open(self._file_path, "w", encoding="utf-8") as file:
             json.dump(raw_items, file, ensure_ascii=False, indent=2)

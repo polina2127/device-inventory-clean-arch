@@ -283,5 +283,4 @@ def main() -> None:
 >>>>>>> feature/infrastructure-layer
 ```
  
-Я залишив варіант `data/devices.json`, бо саме для цього каталогу додано правило в `.gitignore`, і його використовує `JsonDeviceRepository`. Маркери видалено, файл перевірено на коректність JSON, після чого виконано `git add appsettings.json` і `git commit -m "merge: розв’язано конфлікт конфігурації сховища даних"`.
->>>>>>> develop
+Я залишила варіант `data/devices.json`, бо саме для цього каталогу додано правило в `.gitignore`, і його використовує `JsonDeviceRepository`. Маркери видалено, файл перевірено на коректність JSON, після чого виконано `git add appsettings.json` і `git commit -m "merge: розв’язано конфлікт конфігурації сховища даних"`.

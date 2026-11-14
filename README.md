@@ -37,7 +37,7 @@ src/
 
 ## Збірка і запуск
 
-Вимоги: встановлений Python.
+Вимоги: Python 3.9 або новіший
 
 ```bash
 git clone https://github.com/ВАШ_ЛОГІН/device-inventory-clean-arch.git

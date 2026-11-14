@@ -12,6 +12,7 @@ class DeviceStatus(str, Enum):
 
 @dataclass
 class Device:
+    """Сутність «Пристрій»: інвентарний номер, назва, розташування, статус, власник."""
     inventory_number: str
     name: str
     location: str
